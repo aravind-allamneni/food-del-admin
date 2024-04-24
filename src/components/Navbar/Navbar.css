@@ -9,6 +9,33 @@
   width: max(10%, 80px)
 }
 
-.navbar .profile{
+/* .navbar .profile{
+  width: 40px;
+} */
+
+.navbar button{
+  background: transparent;
+  font-size: 13px;
+  color: rgb(1, 84, 90);
+  border: 1px solid rgb(1, 84, 90);
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover{
+  background: rgb(195, 214, 215);
+}
+
+.navbar-profile{
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar .profile img{
   width: 40px;
 }
